@@ -1,0 +1,26 @@
+{
+  "name": "audittool",
+  "version": "1.0.0",
+  "description": "Dependency management tool designed around human (security) audits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strugee/audittool.git"
+  },
+  "keywords": [
+    "audit",
+    "dependencies",
+    "transitive-dependencies",
+    "indirect-dependencies",
+    "dependency-management"
+  ],
+  "author": "AJ Jordan <alex@strugee.net>",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/audittool/issues"
+  },
+  "homepage": "https://github.com/strugee/audittool#readme"
+}
