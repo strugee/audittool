@@ -4,7 +4,9 @@
   "description": "Dependency management tool designed around human (security) audits",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,8 @@
     "module-deps": "^6.1.0",
     "read-package-json": "^2.0.13",
     "resolve": "^1.8.1",
-    "through2": "^2.0.3"
-  }
+    "through2": "^2.0.3",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
