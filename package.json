@@ -25,7 +25,7 @@
   "homepage": "https://github.com/strugee/audittool#readme",
   "dependencies": {
     "async": "^2.6.1",
-    "builtins": "^2.0.0",
+    "builtins": "^5.0.1",
     "inquirer": "^6.0.0",
     "module-deps": "^6.1.0",
     "read-package-json": "^2.0.13",
