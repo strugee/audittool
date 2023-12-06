@@ -28,7 +28,7 @@
     "builtins": "^2.0.0",
     "inquirer": "^6.0.0",
     "module-deps": "^6.1.0",
-    "read-package-json": "^2.0.13",
+    "read-package-json": "^6.0.1",
     "resolve": "^1.8.1",
     "through2": "^2.0.3"
   }
